@@ -74,3 +74,16 @@ aside {
   border-top: 5px solid #1098ad;
   border-bottom: 5px solid #1098ad;
 }
+
+/* pseudo class para obtener el primer elemento 
+li:first-child {
+  font-weight: bold;
+}
+ pseudo class para obtener el segundo elemento 
+li:nth-child(2) {
+  font-style: italic;
+}
+psuedo class para obtener los elementos impares 
+li:nth-child(odd) {
+  color: red;
+} */

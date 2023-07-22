@@ -89,6 +89,7 @@ li:nth-child(odd) {
 } */
 
 /* Styling links */
+/* Siempre deben ir en este orde LVHA */
 a:link {
   color: #1098ad;
   text-decoration: none;

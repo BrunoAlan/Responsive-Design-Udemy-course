@@ -1,11 +1,26 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+
+}
+
 body {
   font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
     Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
   line-height: 1.5;
 }
 
+.container {
+  max-width: 700px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
 .product {
-  border: solid 5px black;
+  border: solid 4px black;
+  width: 825px;
+  margin: 5px auto;
 }
 
 .product-title {
@@ -15,6 +30,7 @@ body {
   color: black;
   text-transform: uppercase;
   text-align: center;
+  padding: 15px;
 }
 
 .price {
@@ -22,26 +38,44 @@ body {
   font-weight: bold;
   color: black;
 }
+
 .shipping {
   font-size: 12px;
   text-transform: uppercase;
+  margin-bottom: 20px;
 }
 
 .more-info:link {
   color: black;
 }
+
 .more-info:hover {
   text-decoration: none;
 }
 
 .add-cart {
+  width: 100%;
   background-color: black;
   color: #f7f7f7;
   text-transform: uppercase;
+  padding: 10px;
+  border: none;
+
 }
 
 .add-cart:hover {
   background-color: #f7f7f7;
   color: black;
   text-decoration: none;
+  border-top: 4px solid black;
+}
+
+.details-title {
+  padding-top: 20px;
+}
+
+.details-list {
+  margin-left: 20px;
+  margin-bottom: 20px;
+  padding: 0;
 }

@@ -1,0 +1,133 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+
+}
+
+body {
+  margin-top: 60px;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  line-height: 1.5;
+}
+
+.container {
+  max-width: 700px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+.product {
+  border: solid 4px black;
+  width: 825px;
+  margin: 5px auto;
+  position: relative;
+}
+
+.sale {
+  display: inline-block;
+  position: absolute;
+  background-color: red;
+  padding: 7px 15px;
+  text-transform: uppercase;
+  color: white;
+  font-weight: bold;
+  font-size: 12px;
+  letter-spacing: 1px;
+  top: -17px;
+  left: -30px;
+}
+
+.product-title {
+  background-color: #f7f7f7;
+  font-size: 20px;
+  font-weight: bold;
+  color: black;
+  text-transform: uppercase;
+  text-align: center;
+  padding: 15px;
+}
+
+.price {
+  font-size: 24px;
+  font-weight: bold;
+  color: black;
+}
+
+.shipping {
+  font-size: 12px;
+  text-transform: uppercase;
+  margin-bottom: 20px;
+}
+
+.more-info:link {
+  color: black;
+  margin-bottom: 30px;
+  display: inline-block;
+}
+
+.more-info:hover {
+  text-decoration: none;
+}
+
+.add-cart {
+  width: 100%;
+  background-color: black;
+  color: #f7f7f7;
+  text-transform: uppercase;
+  padding: 10px;
+  border: none;
+
+}
+
+.add-cart:hover {
+  background-color: #f7f7f7;
+  color: black;
+  text-decoration: none;
+  border-top: 4px solid black;
+}
+
+.details-title {
+  padding-top: 20px;
+}
+
+.details-list {
+  margin-left: 20px;
+  margin-bottom: 20px;
+  padding: 0;
+}
+
+.color {
+  background-color: black;
+  height: 22px;
+  width: 22px;
+  display: inline-block;
+  margin-right: 10px;
+}
+
+.color-blue {
+  background-color: blue !important
+}
+
+.color-red {
+  background-color: red !important
+}
+
+.color-green {
+  background-color: green !important
+}
+
+.color-yellow {
+  background-color: yellow !important
+}
+
+.color-brown {
+  background-color: brown !important
+}
+
+.color {
+  background-color: black;
+  width: 22px;
+  height: 22px;
+}

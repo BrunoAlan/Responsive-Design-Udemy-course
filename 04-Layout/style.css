@@ -1,0 +1,201 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  padding: 20px;
+  position: relative;
+}
+
+.container {
+  width: 800px;
+  /* margin-left: auto;
+  margin-right: auto; */
+  margin: 0 auto;
+}
+
+/* con la coma se pueden seleccionar varios elementos */
+h1,
+h2,
+h3,
+h4,
+p,
+li {
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  color: #444;
+}
+
+h2 {
+  position: relative;
+}
+
+h2::after {
+  content: 'TOP 🔝';
+  background-color: #ffe70e;
+  color: #444;
+  font-size: 16px;
+  font-weight: bold;
+  display: inline-block;
+  padding: 5px 10px;
+  position: absolute;
+  right: -15px;
+  top: -10px;
+}
+
+.main-header {
+  background-color: #f7f7f7;
+  padding: 20px;
+  padding-left: 40px;
+  padding-right: 40px;
+  /* es lo mismo que esto, padding: top,sides */
+  padding: 20px 20px;
+  margin-bottom: 50px;
+}
+
+nav {
+  font-size: 18px;
+}
+
+aside {
+  background-color: #f7f7f7;
+  border-top: 5px solid #1098ad;
+  border-bottom: 5px solid #1098ad;
+  padding: 50px 0;
+  width: 500px;
+}
+
+h1,
+h2,
+h3 {
+  color: #1098ad;
+}
+
+.post-header {
+  margin-bottom: 40px;
+  /* position: relative; */
+}
+
+h1 {
+  font-size: 26px;
+  text-transform: uppercase;
+  font-style: italic;
+}
+
+h2 {
+  font-size: 40px;
+  margin-bottom: 30px;
+}
+
+h3 {
+  font-size: 30px;
+  margin-bottom: 20px;
+  margin-top: 40px;
+}
+
+h4 {
+  font-size: 20px;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+p {
+  font-size: 22px;
+  line-height: 1.5;
+  /* 1.5 times the font size */
+  margin-bottom: 15px;
+}
+
+ul,
+ol {
+  margin-left: 30px;
+  margin-bottom: 20px;
+}
+
+li {
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+li:last-child {
+  margin-bottom: 0;
+}
+
+/* con espacios selecciono los hijos de un elemento */
+footer p {
+  font-size: 16px;
+}
+
+/* article header p {
+  font-style: italic;
+} */
+
+.author,
+.related-author {
+  font-size: 18px;
+  font-style: italic;
+  font-weight: bold;
+}
+
+.related {
+  list-style: none;
+}
+
+/* pseudo class para obtener el primer elemento 
+li:first-child {
+  font-weight: bold;
+}
+ pseudo class para obtener el segundo elemento 
+li:nth-child(2) {
+  font-style: italic;
+}
+psuedo class para obtener los elementos impares 
+li:nth-child(odd) {
+  color: red;
+} */
+
+/* Styling links */
+/* Siempre deben ir en este orde LVHA */
+a:link {
+  color: #1098ad;
+  text-decoration: none;
+}
+
+a:visited {
+  color: #1098ad;
+}
+
+a:hover {
+  color: orangered;
+  font-weight: bold;
+  text-decoration: underline orangered;
+}
+
+a:active {
+  background-color: black;
+  font-style: italic;
+}
+
+.post-image {
+  width: 100%;
+  /* height: auto;  si en el html tenemos un tamaño se ajusta al aspect-ratio */
+}
+
+article {
+  margin-bottom: 60px;
+}
+
+.like-button {
+  font-size: 22px;
+  padding: 20px;
+  cursor: pointer;
+  position: absolute;
+  bottom: 50px;
+  right: 50px;
+}
+
+h1::first-letter {
+  font-style: normal;
+  margin-right: 5px;
+}

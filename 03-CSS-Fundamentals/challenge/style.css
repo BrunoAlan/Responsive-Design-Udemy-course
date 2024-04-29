@@ -6,6 +6,7 @@
 }
 
 body {
+  margin-top: 60px;
   font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
     Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
   line-height: 1.5;
@@ -21,6 +22,21 @@ body {
   border: solid 4px black;
   width: 825px;
   margin: 5px auto;
+  position: relative;
+}
+
+.sale {
+  display: inline-block;
+  position: absolute;
+  background-color: red;
+  padding: 7px 15px;
+  text-transform: uppercase;
+  color: white;
+  font-weight: bold;
+  font-size: 12px;
+  letter-spacing: 1px;
+  top: -17px;
+  left: -30px;
 }
 
 .product-title {
@@ -47,6 +63,8 @@ body {
 
 .more-info:link {
   color: black;
+  margin-bottom: 30px;
+  display: inline-block;
 }
 
 .more-info:hover {
@@ -78,4 +96,38 @@ body {
   margin-left: 20px;
   margin-bottom: 20px;
   padding: 0;
+}
+
+.color {
+  background-color: black;
+  height: 22px;
+  width: 22px;
+  display: inline-block;
+  margin-right: 10px;
+}
+
+.color-blue {
+  background-color: blue !important
+}
+
+.color-red {
+  background-color: red !important
+}
+
+.color-green {
+  background-color: green !important
+}
+
+.color-yellow {
+  background-color: yellow !important
+}
+
+.color-brown {
+  background-color: brown !important
+}
+
+.color {
+  background-color: black;
+  width: 22px;
+  height: 22px;
 }

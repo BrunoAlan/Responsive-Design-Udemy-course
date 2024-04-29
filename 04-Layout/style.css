@@ -9,7 +9,7 @@ body {
 }
 
 .container {
-  width: 800px;
+  width: 1200px;
   /* margin-left: auto;
   margin-right: auto; */
   margin: 0 auto;
@@ -63,7 +63,6 @@ aside {
   border-top: 5px solid #1098ad;
   border-bottom: 5px solid #1098ad;
   padding: 50px 0;
-  width: 500px;
 }
 
 h1,
@@ -140,6 +139,7 @@ footer p {
 
 .related {
   list-style: none;
+  margin-left: 0;
 }
 
 /* pseudo class para obtener el primer elemento 
@@ -198,4 +198,51 @@ article {
 h1::first-letter {
   font-style: normal;
   margin-right: 5px;
+}
+
+/* floats */
+.author-image {
+  float: left;
+  margin-bottom: 10px;
+}
+
+.author {
+  float: left;
+  margin-top: 10px;
+  margin-left: 10px;
+}
+
+
+h1 {
+  float: left;
+}
+
+nav {
+  float: right;
+}
+
+.clear {
+  clear: both;
+}
+
+.clearfix::after {
+  content: '';
+  display: block;
+  clear: both;
+}
+
+article {
+  width: 825px;
+  float: left;
+}
+
+aside {
+  width: 300px;
+  float: right;
+  padding: 50px 40px;
+  box-sizing: border-box;
+}
+
+footer {
+  clear: both;
 }

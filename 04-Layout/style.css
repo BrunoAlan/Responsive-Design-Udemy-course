@@ -1,6 +1,7 @@
 * {
   margin: 0;
   padding: 0;
+  box-sizing: border-box;
 }
 
 body {
@@ -97,6 +98,7 @@ h4 {
   font-size: 20px;
   text-transform: uppercase;
   text-align: center;
+  margin-bottom: 30px;
 }
 
 p {
@@ -240,7 +242,6 @@ aside {
   width: 300px;
   float: right;
   padding: 50px 40px;
-  box-sizing: border-box;
 }
 
 footer {

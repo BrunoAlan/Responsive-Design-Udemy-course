@@ -137,6 +137,10 @@ footer p {
   font-size: 18px;
   font-style: italic;
   font-weight: bold;
+  margin-bottom: 0px;
+  font-size: 14px;
+  font-weight: normal;
+  font-style: italic;
 }
 
 .related {
@@ -202,7 +206,9 @@ h1::first-letter {
   margin-right: 5px;
 }
 
+
 /* floats */
+/* 
 .author-image {
   float: left;
   margin-bottom: 10px;
@@ -246,4 +252,39 @@ aside {
 
 footer {
   clear: both;
+}
+*/
+
+/* Flexbox */
+
+.main-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.author-box {
+  display: flex;
+  align-items: center;
+  margin-bottom: 15px;
+}
+
+.author {
+  margin-bottom: 0;
+  margin-left: 15px;
+}
+
+.related:link {
+  font-size: 17px;
+  font-weight: bold;
+  font-style: normal;
+  display: block;
+  margin-bottom: 5px;
+}
+
+.related-post {
+  gap: 20px;
+  display: flex;
+  align-items: center;
+  margin-bottom: 30px;
 }

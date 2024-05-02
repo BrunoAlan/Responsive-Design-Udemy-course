@@ -168,3 +168,19 @@ body {
   color: #000;
   background-color: #fff;
 }
+
+.product {
+  display: grid;
+  column-gap: 20px;
+  grid-template-columns: 250px 1fr 1fr;
+  grid-template-rows: repeat(3, auto);
+}
+
+.product-title {
+  grid-column: 1 / -1;
+}
+
+.add-cart {
+  grid-column: 1 / -1;
+  grid-row: 3;
+}

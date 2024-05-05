@@ -2,7 +2,6 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-
 }
 
 body {
@@ -78,7 +77,6 @@ body {
   text-transform: uppercase;
   padding: 10px;
   border: none;
-
 }
 
 .add-cart:hover {
@@ -107,23 +105,23 @@ body {
 }
 
 .color-blue {
-  background-color: blue !important
+  background-color: blue !important;
 }
 
 .color-red {
-  background-color: red !important
+  background-color: red !important;
 }
 
 .color-green {
-  background-color: green !important
+  background-color: green !important;
 }
 
 .color-yellow {
-  background-color: yellow !important
+  background-color: yellow !important;
 }
 
 .color-brown {
-  background-color: brown !important
+  background-color: brown !important;
 }
 
 .color {

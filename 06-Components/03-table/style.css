@@ -15,11 +15,13 @@ table {
   margin: 100px auto;
   border-collapse: collapse;
   box-shadow: 0 12px 24px rgba(0, 0, 0, 0.1);
+  font-size: 18px;
 }
 
-thead {
-  color: white;
+thead th {
+  color: #fff;
   background-color: #087f5b;
+  width: 25%;
 }
 
 th,
@@ -28,6 +30,10 @@ td {
   text-align: left;
 }
 
-tr:nth-child(even) {
-  background-color: #e0e0e0;
+tbody tr:nth-child(odd) {
+  background-color: #f8f9fa;
+}
+
+tbody tr:nth-child(even) {
+  background-color: #e9ecef;
 }

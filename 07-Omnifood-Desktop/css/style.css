@@ -381,3 +381,77 @@ body {
 .step-img {
   width: 35%;
 }
+
+/* ***************************************** */
+/* Meal section */
+/* ***************************************** */
+
+.section-meals {
+  padding: var(--spacing-96) 0;
+}
+
+.meal {
+  box-shadow: 0 2.4rem 4.8rem rgba(0, 0, 0, 0.075);
+  border-radius: var(--border-radius-default);
+  overflow: hidden;
+}
+.meal-content {
+  padding: var(--spacing-32) var(--spacing-48) var(--spacing-48)
+    var(--spacing-48);
+}
+.meal-tags {
+  display: flex;
+  gap: var(--spacing-4);
+  margin-bottom: var(--spacing-12);
+}
+.tag {
+  display: inline-block;
+  padding: var(--spacing-4) var(--spacing-8);
+  border-radius: 100px;
+  color: var(--color-grey-dark);
+  font-size: var(--font-size-12);
+  text-transform: uppercase;
+  font-weight: var(--font-weight-semi-bold);
+}
+.tag--vegetarian {
+  background-color: #51cf66;
+}
+.tag--vegan {
+  background-color: #94d82d;
+}
+.tag--paleo {
+  background-color: #ffd43b;
+}
+
+.meal-title {
+  font-size: var(--font-size-24);
+  color: var(--color-grey-dark);
+  font-weight: var(--font-weight-semi-bold);
+  margin-bottom: var(--spacing-32);
+}
+
+.meal-attributes {
+  list-style-type: none;
+  font-size: var(--font-size-14);
+  color: var(--color-grey-light);
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+.meal-attribute {
+  font-size: var(--font-size-18);
+  display: flex;
+  align-items: center;
+  gap: var(--spacing-16);
+}
+
+.meal-icon {
+  width: 2.4rem;
+  height: 2.4rem;
+  color: var(--color-primary);
+}
+
+.meal-img {
+  width: 100%;
+}

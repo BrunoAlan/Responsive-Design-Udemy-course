@@ -515,12 +515,95 @@ body {
   padding: var(--spacing-16);
 }
 
+.galery-item {
+  overflow: hidden;
+}
+
 .galery-item img {
   display: block;
   width: 100%;
-  transition: all 0.3s;
+  transition: all 0.4s;
 }
 
 .galery-item img:hover {
   transform: scale(1.1);
+}
+
+/* ***************************************** */
+/* Picing section */
+/* ***************************************** */
+
+.section-pricing {
+  padding: var(--spacing-96) 0;
+}
+
+.pricing-plan {
+  border-radius: 11px;
+  width: 75%;
+}
+
+.pricing-plan--starter {
+  justify-self: end;
+  border: 2px solid var(--color-tint-light);
+  padding: 4.6rem;
+}
+
+.pricing-plan--complete {
+  background-color: var(--color-tint-light);
+  padding: var(--spacing-48);
+  position: relative;
+  overflow: hidden;
+}
+
+.pricing-plan--complete::after {
+  content: "Best Value";
+  position: absolute;
+  display: block;
+  text-transform: uppercase;
+  font-weight: 700;
+  font-size: var(--font-size-14);
+  padding: 0.8rem 8rem;
+  top: 6%;
+  right: -18%;
+  background-color: #ffd43b;
+  transform: rotate(45deg);
+}
+
+.plan-header {
+  text-align: center;
+  /* margin-bottom: var(--spacing-48); */
+}
+
+.plan-name {
+  font-size: var(--font-size-20);
+  color: var(--color-shade-dark);
+  font-weight: var(--font-weight-semi-bold);
+  margin-bottom: var(--spacing-32);
+  letter-spacing: 0.75;
+  text-transform: uppercase;
+}
+
+.plan-price {
+  font-size: var(--font-size-62);
+  color: var(--color-grey-dark);
+  font-weight: var(--font-weight-semi-bold);
+  margin-bottom: var(--spacing-16);
+}
+
+.plan-price span {
+  font-size: var(--font-size-30);
+  font-weight: 500;
+  margin-right: var(--spacing-12);
+}
+
+.plan-text {
+  font-size: var(--font-size-16);
+  line-height: 1.6;
+  color: var(--color-grey-light);
+  margin-bottom: var(--spacing-32);
+}
+
+.plan-sign-up {
+  text-align: center;
+  margin-top: var(--spacing-48);
 }

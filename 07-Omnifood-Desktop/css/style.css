@@ -607,3 +607,32 @@ body {
   text-align: center;
   margin-top: var(--spacing-48);
 }
+
+.plan-details {
+  font-size: var(--font-size-16);
+  line-height: 1.6;
+  text-align: center;
+}
+
+.feature-icon {
+  background-color: var(--color-tint-light);
+  border-radius: 50%;
+  padding: 1.2rem;
+  color: var(--color-primary);
+  height: 3.2rem;
+  width: 3.2rem;
+  margin-bottom: var(--spacing-32);
+}
+
+.feature-title {
+  font-size: var(--font-size-24);
+  color: var(--color-grey-dark);
+  margin-bottom: var(--spacing-16);
+  font-weight: var(--font-weight-bold);
+}
+
+.feature-text {
+  font-size: var(--font-size-18);
+  color: var(--color-grey-light);
+  line-height: 1.6;
+}
